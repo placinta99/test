@@ -14,3 +14,4 @@
 use App\Http\Controllers\IndexController;
 
 Route::get('/', 'IndexController@index');
+Route::resource('contact', 'ContactController');    
