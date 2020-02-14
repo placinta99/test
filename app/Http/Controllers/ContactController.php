@@ -47,8 +47,8 @@ class ContactController extends Controller
      */
     public function show($id)
     {
-        $contact = Contact::findOrFail($id);
-  return $contact; 
+//         $contact = Contact::findOrFail($id);
+//   return $contact; 
     }
 
     /**
